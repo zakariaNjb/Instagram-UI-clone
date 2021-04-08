@@ -1,0 +1,18 @@
+.postComment{
+    border-style: groove;
+    border-width: 0px;
+    border-top-width: 0.1px;
+    border-color: rgba(128, 128, 128, 0.171);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 10px;
+}
+.postComment input{
+    border: none;
+    outline: none;
+    font-size: 0.9em;
+}
+.postComment span{
+    color: rgb(0, 140, 255);
+}

@@ -1,0 +1,48 @@
+#info2{
+    display: none;
+}
+#info2 main{
+    display: flex;
+}
+#info2 main img{
+    width: 80px;
+    height: 80px;
+    border-radius: 100px;
+    margin-left: 20px;
+}
+#info2 main div{
+    padding-left: 20px;
+    width: 100%;
+}
+#info2 main div span{
+    display: flex;
+    align-items: center;
+    padding: 10px 0px;
+    padding-top: 0px;
+}
+#info2 main div span li{
+    list-style: none;
+    font-size: 1.5em;
+}
+#info2 main div span li:first-child{
+    padding-right: 10px;
+}
+#info2 main div button{
+    width: 100%;
+}
+#info2 span{
+    padding-top: 20px;
+    padding-left: 20px;
+    display: block;
+}
+#info2 span li{
+    list-style: none;
+    text-align: left;
+}
+
+/*******Media queries********/
+@media screen and (max-width:735px){
+    #info2{
+        display: block;
+    }
+}

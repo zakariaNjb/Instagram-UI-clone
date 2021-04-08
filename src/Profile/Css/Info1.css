@@ -1,0 +1,43 @@
+#info1{
+    display: flex;
+}
+#info1 img{
+    width: 9em;
+    height: 9em;
+    border-radius: 100px;
+    margin-left: 2%;
+}
+.infoSection{
+    padding-left: 80px;
+    width: 100%;
+}
+.infoSection div{
+    display: flex;
+    align-items: center;
+}
+.infoSection div li{
+    padding-right: 20px;
+    list-style: none;
+    text-align: left;
+}
+.infoSection div:first-child li:first-child{
+    font-size: 2em;
+    font-weight: 300;
+}
+.infoSection div:first-child li:last-child{
+    font-size: 1.5em;
+}
+.infoSection span li{
+    list-style: none;
+    text-align: left;
+}
+.infoSection span li:first-child{
+    font-weight: 500;
+}
+
+/*******Media queries********/
+@media screen and (max-width:735px){
+    #info1{
+        display: none;
+    }
+}

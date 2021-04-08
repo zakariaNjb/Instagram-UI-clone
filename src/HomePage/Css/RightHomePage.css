@@ -1,0 +1,26 @@
+.right__HomePage{
+    flex-grow: 0.35;
+    width: 35%;
+    margin-left: 30px;
+}
+.right__HomePage span{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0px;
+}
+.right__HomePage span h5,h6{margin: 0px;}
+.right__HomePage span h5{
+    font-size: 0.8em;
+    color:grey;
+}
+.avatar__container{
+    margin: 10px 0px;
+}
+
+/********Media queries**********/
+@media screen and (max-width:1000px){
+    .right__HomePage{
+        display: none;
+    }
+}

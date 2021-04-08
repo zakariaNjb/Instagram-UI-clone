@@ -1,0 +1,20 @@
+.left__HomePage{
+    flex-grow: 0.65;
+    width: 65%;
+}
+.stories{
+    border-style: groove;
+    border-width: 0.5px;
+    border-radius: 5px;
+    margin-top: 0px;
+    margin-bottom: 24px;
+    background-color: snow;
+    border-color: rgba(128, 128, 128, 0.26);
+}
+/****media queries********/
+@media screen and (max-width:1000px){
+    .left__HomePage{
+        width: 100%;
+        flex-grow: 1;
+    }
+}

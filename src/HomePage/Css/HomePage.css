@@ -1,0 +1,33 @@
+.homePage{
+    width: 70%;
+    margin: 0px auto;
+    padding-top: 30px;
+    display: flex;
+}
+
+/******Media queries ********/
+@media screen and (max-width:1125px){
+    .homePage{
+        width: 85%;
+    }
+}
+@media screen and (max-width:1030px){
+    .homePage{
+        width: 90%;
+    }
+}
+@media screen and (max-width:1000px){
+    .homePage{
+        width: 85%;
+    }
+}
+@media screen and (max-width:700px){
+    .homePage{
+        width: 90%;
+    }
+}
+@media screen and (max-width:650px){
+    .homePage{
+        width: 95%;
+    }
+}

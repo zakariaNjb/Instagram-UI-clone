@@ -1,0 +1,12 @@
+.postIconBar div:first-child{
+    display: flex;
+    justify-content: space-between;
+}
+.postIconBar div:first-child svg{
+    font-size: 1.7em;
+}
+.postIconBar h4{
+    text-align: left;
+    font-weight: 500;
+    margin: 5px 0px;
+}

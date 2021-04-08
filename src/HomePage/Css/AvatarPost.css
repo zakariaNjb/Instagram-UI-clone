@@ -1,0 +1,35 @@
+.avatarPost{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 5px 15px;
+}
+.avatarPost span{
+    display: flex;
+    align-items: center;
+}
+.avatarPost span ul{
+    padding-left: 10px;
+}
+.avatarPost span img{
+    width: 2em;
+    height: 2em;
+    border-style: groove;
+    border-width: 2px;
+    border-color: rgb(240, 94, 143);
+    padding: 2px;
+    border-radius: 100px;
+}
+
+.avatarPost span h5,.avatarPost span h6{text-align: left;}
+
+.avatarPost span h5{
+    margin: 0px;
+    font-size: 1em;
+    font-weight: 450;
+}
+.avatarPost span h6{
+    font-size: 0.8em;
+    font-weight: 300;
+}

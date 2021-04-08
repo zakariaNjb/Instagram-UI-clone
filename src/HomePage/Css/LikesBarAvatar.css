@@ -1,0 +1,35 @@
+.likesAvatar{
+    display: flex;
+    align-items: center;
+}
+.likesAvatar img{
+    height: 2em;
+    width: 2em;
+    border-radius: 100px;
+    padding: 10px;
+}
+.likesAvatar div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    border-style: groove;
+    border-width: 0px;
+    border-bottom-width: 0.5px;
+    border-color: rgba(128, 128, 128, 0.219);
+    padding: 10px;
+
+}
+
+.likesAvatar div span li{
+    list-style: none;
+    text-align: left;
+    font-size: 0.9em;
+}
+.likesAvatar div span li:first-child{font-weight: 500;}
+.likesAvatar div button{
+    background-color: rgb(0, 162, 255);
+    border: none;
+    color: snow;
+    font-weight: 700;
+}

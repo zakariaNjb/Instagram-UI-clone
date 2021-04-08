@@ -1,0 +1,17 @@
+.portalComment{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.portalComment img{
+    width: 2em;
+    height: 2em;
+    border-radius: 100px;
+    padding: 15px;
+}
+.portalComment div{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

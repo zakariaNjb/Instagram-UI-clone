@@ -1,0 +1,86 @@
+#navBar{
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+    background-color: snow;
+    border-style: groove;
+    border-width: 0px;
+    border-bottom-width: 1px;
+    border-color: rgba(128, 128, 128, 0.26);
+}
+.header{
+    width: 70%;
+    height: 54px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header a{
+    color: black;
+}
+h5{
+    font-size: 2em;
+    font-weight: normal;
+    font-style: normal;
+    font-family: 'Kaushan Script', cursive;
+}
+
+button{
+    height: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:  transparent;
+    border-width: 0.5px;
+    border-color: rgba(128, 128, 128, 0.479);
+    border-radius: 5px;
+    outline: none;
+}
+.header span button{
+    display: inline;
+    border: none;
+}
+button input{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    width: 190px;
+    font-size: 1em;
+    text-align: center;
+}
+.header svg{
+    padding: 0px 10px;
+    font-size: 1.5em;
+}
+.header img{
+    width: 1.5em;
+    height: 1.5em;
+    border-radius: 100px;
+}
+
+/********Media queries*********/
+@media screen and (max-width:1125px) {
+    .header{
+        width: 85%;
+    }
+}
+@media screen and (max-width:1030px) {
+    .header{
+        width: 90%;
+    }
+}
+@media screen and (max-width:1000px){
+    .header{
+        width: 95%;
+    }
+}
+
+@media screen and (max-width:650px){
+    .homePage{
+        width: 95%;
+    }
+    .header button{
+        display: none;
+    }
+}

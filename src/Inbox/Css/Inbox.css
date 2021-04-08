@@ -1,0 +1,86 @@
+#InboxContainer{
+    border-style: groove;
+    border-width: 0.1px;
+    border-color: rgba(128, 128, 128, 0.212);
+    border-radius: 5px;
+    width: 70%;
+    margin: 20px auto;
+    height: 600px;
+    display: flex;
+    background-color: snow;
+}
+.chatSection{
+    width: 350px;
+    overflow-y: hidden;
+}
+.chatSection nav{
+    border-style: groove;
+    border-width: 0px;
+    border-bottom-width: 0.5px;
+    border-right-width: 0.5px;
+    border-color: rgba(128, 128, 128, 0.212);
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.chatSection nav div{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.chatSection nav svg{
+    font-size: 1.5em;
+}
+.chatSection nav div svg{
+    padding-left: 10px;
+}
+.chatavatar{
+    padding: 10px 20px;
+}
+
+
+
+
+.sendMessage{
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sendMessage h4{
+    font-size: 1.3em;
+    font-weight: 400;
+    margin: 5px;
+}
+.sendMessage h5{
+    font-family: "normal";
+    font-size: 1em;
+    color: grey;
+    margin: 0px;
+    margin-bottom: 25px;
+}
+.sendMessage button{
+    background-color: rgb(0, 140, 255);
+    font-weight: 700;
+    color: snow;
+}
+
+
+
+/*******Media queries******/
+@media screen and (max-width:1125px) {
+    #InboxContainer{
+        width: 85%;
+    }
+}
+@media screen and (max-width:1030px) {
+    #InboxContainer{
+        width: 90%;
+    }
+}
+@media screen and (max-width:1000px){
+    #InboxContainer{
+        width: 95%;
+    }
+}

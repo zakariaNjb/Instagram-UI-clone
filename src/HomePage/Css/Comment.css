@@ -1,0 +1,11 @@
+.comment{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.comment p{
+    margin: 5px 0px;
+}
+.comment svg{
+    font-size: 2em;
+}

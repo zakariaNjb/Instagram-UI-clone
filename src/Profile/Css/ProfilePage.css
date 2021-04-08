@@ -1,0 +1,54 @@
+#profilePage{
+    width: 70%;
+    margin: 0px auto;
+    margin-top: 30px;
+    position: relative;
+}
+/***catching span and img from 
+    StoryContainer.css->avatarStory.css
+**/
+#profilePage .story__container span{
+    padding: 0px 20px;
+}
+#profilePage .story__container span img{
+    width: 70px;
+    height: 70px;
+    border-radius: 100px;
+    border-color: rgba(128, 128, 128, 0.562);
+}
+
+#publication{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: auto;
+    grid-gap: 20px;
+}
+
+/********Media queries*********/
+@media screen and (max-width:1125px) {
+    #profilePage{
+        width: 85%;
+    }
+}
+@media screen and (max-width:1030px) {
+    #profilePage{
+        width: 90%;
+    }
+}
+@media screen and (max-width:1000px){
+    #profilePage{
+        width: 95%;
+    }
+}
+@media screen and (max-width:735px){
+    #profilePage .story__container span{
+        padding: 0px 2px;
+    }
+    #profilePage .story__container span img{
+        height: 50px;
+        width: 50px;
+    }
+    #publication{
+        grid-gap: 5px;
+    }
+}

@@ -1,0 +1,33 @@
+.avatar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:0px 0px;
+}
+.avatar span{
+    display: flex;
+}
+.avatar span ul{
+    padding: 0;
+    padding-left: 10px;
+    margin: 0;
+    display: grid;
+    align-items: center;
+}
+.avatar span ul li{
+    text-align: left;
+    list-style: none;
+}
+.avatar span ul li:first-child{
+    font-weight: bold;
+    font-size: 0.9em;
+}
+.avatar span ul li:last-child{
+    font-size: 0.8em;
+    color: grey;
+}
+.avatar h6{
+    font-size: 0.7em;
+    margin: 0;
+    color: rgb(0, 162, 255);
+}

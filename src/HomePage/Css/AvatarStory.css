@@ -1,0 +1,15 @@
+#story{
+    padding: 0px 3px;
+}
+#story img{
+    width: 3.5em;
+    height: 3.5em;
+    border-style: groove;
+    border-width: 2px;
+    border-color: rgb(240, 94, 143);
+    padding: 2px;
+    border-radius: 100px;
+}
+#story h6{
+    width: 70px;
+}

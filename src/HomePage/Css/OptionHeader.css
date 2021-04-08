@@ -1,0 +1,53 @@
+#options{
+    background-color: snow;
+    position: fixed;
+    right: 14%;
+    top: 54px;
+    width: 200px;
+    z-index: 1;
+    border-radius: 8px;
+    box-shadow: 1px 2px 5px black;
+    visibility: hidden;
+    transition-delay: 200ms;
+}
+#options div{
+    text-align: left;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    cursor: pointer;
+}
+#options div a{
+    text-decoration: none;
+    color: black;
+}
+#options div svg{
+    font-size: 1.3em;
+}
+#options div span{
+    padding-left: 10px;
+}
+#options div:last-child{
+    border-style: groove;
+    border-width: 0px;
+    border-top-width: 0.5px;
+    border-color: rgba(0, 0, 0, 0.37);
+}
+
+
+/********Media queries*********/
+@media screen and (max-width:1125px) {
+    #options{
+        right: 6.5%;
+    }
+}
+@media screen and (max-width:1030px) {
+    #options{
+        right: 4%;
+    }
+}
+@media screen and (max-width:1000px){
+    #options{
+        right: 1.5%;
+    }
+}

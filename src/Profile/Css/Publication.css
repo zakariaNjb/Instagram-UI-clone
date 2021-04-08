@@ -1,0 +1,30 @@
+.pub{
+    height: 300px;
+    position: relative;
+}
+.pub img{
+    width: 100%;
+    height: 100%;
+}
+.__nbrLikes{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+}
+.__nbrLikes span{
+    padding: 0px 15px;
+    display: flex;
+    align-items: center;
+    color: snow;
+}
+.__nbrLikes span svg{
+    font-size: 1.5em;
+    padding: 0px 5px;
+    color: snow;
+}

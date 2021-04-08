@@ -1,0 +1,29 @@
+#profileBar2{
+    display: none;
+}
+#profileBar2 nav{
+    display: flex;
+    align-items: center;
+    border-style: groove;
+    border-width: 0;
+    border-top-width: 0.5px;
+    border-color: rgba(128, 128, 128, 0.13);
+    padding: 15px 0px;
+}
+#profileBar2 nav span{
+    flex-grow: 1;
+}
+#profileBar2 nav li{list-style: none;}
+#profileBar2 nav li:last-child{color: rgb(128, 128, 128);}
+#profileBar2 nav span svg{
+    font-size: 1.8em;
+    color: rgba(0, 0, 0, 0.356);
+    font-weight: 300;
+}
+
+/*******Media queries********/
+@media screen and (max-width:735px){
+    #profileBar2{
+        display: block;
+    }
+}

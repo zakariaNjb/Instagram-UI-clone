@@ -1,0 +1,27 @@
+#profileBar1{
+    border-style: groove;
+    border-width: 0;
+    border-top-width: 0.5px;
+    border-color: rgba(128, 128, 128, 0.247);
+}
+#profileBar1 nav{
+    width: 70%;
+    margin: 0px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#profileBar1 nav span{
+    flex-grow: 1;
+    padding: 15px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*******Media queries********/
+@media screen and (max-width:735px){
+    #profileBar1{
+        display: none;
+    }
+}
